@@ -119,7 +119,7 @@
         {
           color: 'cyan',
           src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhkfAF__AcaHiLuJKviRr2QNddUS0T5mjvVA&usqp=CAU',
-          title: 'Bike Machenic',
+          title: 'Labour',
           artist: '',
         },
         
