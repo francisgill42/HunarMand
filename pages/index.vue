@@ -1,25 +1,9 @@
 <template>
-  <v-card
+      <v-card
+      
     max-width="400"
-    class="mx-auto"
+    class="mx-auto mt-15"
   >
-    <v-app-bar
-      dark
-      color="#1F7087"
-    >
-      <!-- <v-app-bar-nav-icon></v-app-bar-nav-icon> -->
-
-            <v-toolbar-title v-if="$nuxt.isOffline">You are offline</v-toolbar-title>
-            <v-toolbar-title v-if="$nuxt.isOnline">HunarMand</v-toolbar-title>
-
-      <v-spacer></v-spacer>
-
-      <!-- <v-btn class="info" small>
-          Become A Member
-      </v-btn> -->
-    </v-app-bar>
-
-    <v-container>
       <v-row dense>
         
 
@@ -37,7 +21,7 @@
             <div class="d-flex  justify-space-between">
               <div>
 
-                <v-card-title class="headline" v-text="item.title"></v-card-title>
+                <v-card-title v-text="item.title"></v-card-title>
 
                 <v-card-actions>
                 <a 
@@ -75,7 +59,6 @@
           </v-card>
         </v-col>
       </v-row>
-    </v-container>
   </v-card>
 </template>
 <script>
